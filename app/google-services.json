@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1014827764540",
+    "project_id": "com-cfb-brs",
+    "storage_bucket": "com-cfb-brs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014827764540:android:9219073934fc037ce2ec39",
+        "android_client_info": {
+          "package_name": "com.cfb.brs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014827704540-bf3j5ivua9l3svb6iin3tic1e7nphuth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8M6uFQxES3Z8zAxfFENPZnrhvotVfK0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014827704540-bf3j5ivua9l3svb6iin3tic1e7nphuth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

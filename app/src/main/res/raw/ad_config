@@ -1,0 +1,40 @@
+{
+  "cfb_mode": true,
+  "cfb_config": [
+    {
+      "cfb_key": "cfb_inter_s",
+      "cfb_ids": [
+        {
+          "cfb_id": "ca-app-pub-3940256099942544/1033173712",
+          "cfb_priority": 1,
+          "cfb_type": "inter"
+        },
+        {
+          "cfb_id": "ca-app-pub-3940256099942544/3419835294",
+          "cfb_priority": 2,
+          "cfb_type": "open"
+        }
+      ]
+    },
+    {
+      "cfb_key": "cfb_inter_h",
+      "cfb_ids": [
+        {
+          "cfb_id": "ca-app-pub-3940256099942544/1033173712",
+          "cfb_priority": 1,
+          "cfb_type": "inter"
+        }
+      ]
+    },
+    {
+      "cfb_key": "cfb_native",
+      "cfb_ids": [
+        {
+          "cfb_id": "ca-app-pub-3940256099942544/2247696110",
+          "cfb_priority": 1,
+          "cfb_type": "nav"
+        }
+      ]
+    }
+  ]
+}
