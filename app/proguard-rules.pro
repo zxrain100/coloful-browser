@@ -135,4 +135,4 @@
 -dontwarn okio.**
 
 #androidJunkCode
--keep class eh.spb.ic.** { *; }
+-keep class gu.cfb.ln.** { *; }
