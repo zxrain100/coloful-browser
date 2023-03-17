@@ -13,6 +13,7 @@ import com.cfb.brs.fn.CFBam
 import com.cfb.brs.fn.StartActivity
 import com.google.firebase.FirebaseApp
 
+//color2023317
 class CFB : Application() {
 
     companion object {
