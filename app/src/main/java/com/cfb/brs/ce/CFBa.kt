@@ -19,7 +19,7 @@ class CFBa() {
     var type: Int = 0
 
     constructor(inter: InterstitialAd) : this() {
-        this.type = 0
+        this.type = 1
         this.inter = inter
         exTime = System.currentTimeMillis() + 60 * 60 * 1000
     }
@@ -31,7 +31,7 @@ class CFBa() {
     }
 
     constructor(nat: NativeAd) : this() {
-        this.type = 1
+        this.type = 0
         this.nav = nat
         exTime = System.currentTimeMillis() + 60 * 60 * 1000
     }
@@ -93,10 +93,10 @@ class CFBa() {
      */
     fun isAva(): Boolean {
         when (type) {
-            1 -> if (nav == null) {
+            0 -> if (nav == null) {
                 return false
             }
-            0 -> if (inter == null) {
+            1 -> if (inter == null) {
                 return false
             }
             2 -> if (open == null) {

@@ -36,7 +36,7 @@ class CFBMActivity : BaseActivity() {
 
 
     private fun initListener() {
-        binding.bookmarksLayout.setOnClickListener {
+        binding.browserLayout.setOnClickListener {
             val spba = getHomeInter()
             if (spba != null && AppConfig.instance.isM()) {
                 spba.onClose {
